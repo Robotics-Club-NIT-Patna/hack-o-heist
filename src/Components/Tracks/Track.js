@@ -23,9 +23,9 @@ const Track = () => {
             </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisci</p>
           </div>
-          <div className="box Education">
+          <div className="box Open">
             <h2 className="row-1">
-              <img src={edu} className="edu" alt="edu" /> Education
+              <img src={open} className="open" alt="open" /> Open Innovation
             </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisci</p>
           </div>
@@ -36,13 +36,14 @@ const Track = () => {
             </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisci</p>
           </div>
-
-          <div className="box Open">
+          <div className="box Education">
             <h2 className="row-1">
-              <img src={open} className="open" alt="open" /> Open Innovation
+              <img src={edu} className="edu" alt="edu" /> Education
             </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisci</p>
           </div>
+
+          
         </div>
       </div>
     </div>

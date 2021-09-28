@@ -10,7 +10,7 @@
   background-color: #000;
   background-image: url("./bank.png");
   background-size: contain;
-  background-position: center;
+  background-position: bottom ;
   background-repeat: no-repeat;
   position: relative;
   padding: 20px 0;
@@ -56,7 +56,7 @@
   color: #bf0404;
   text-shadow: 0.4rem 1rem 0.1rem rgba(255, 255, 255, 0.048);
 }
-.Trackx .track_box .box_body .Education,
+.Trackx .track_box .box_body .Open,
 .Trackx .track_box .box_body .Community {
   border-bottom: 2px solid #abafb0;
   align-self: flex-end;
@@ -77,6 +77,9 @@
   text-shadow: 0.4rem 1rem 0.1rem rgba(0, 0, 0, 0.25);
   width: max-content;
   margin: 0 auto;
+}
+.box_body{
+  margin-top: 5%;
 }
 
 @media (max-width: 700px) {
